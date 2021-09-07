@@ -1,0 +1,61 @@
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="../../assets/1.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    SearchBook
+  </a>
+</nav>
+
+<div class="search">
+  <div class="overlay"></div>
+  <div class="carousel-inner">
+
+    <div class="container">
+
+      <form >
+
+        <div class="row">
+          <div class="col-12">
+            <h1>Search Books</h1>
+          </div>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-2">
+                <select id="cars" class="btn btn-secondary dropdown-toggle" formControlName="searchType">
+                  <option value="intitle" selected>Title</option>
+                  <option value="inauthor">Author</option>
+                  <option value="isbn">ISBN</option>
+                  <option value="inpublisher">Publisher</option>
+                </select>
+              </div>
+              <div class="col-8">
+                <div class="form-group">
+                  <input
+                    formControlName="text"
+                    class="form-control me-2"
+                    type="search"
+                    id="text"
+                    placeholder="Search by Title or Author or ISBN or Publisher"
+                    aria-label="Search"
+                    required
+                  >
+
+                </div>
+              </div>
+              <div class="col-2">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
