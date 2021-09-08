@@ -1,6 +1,6 @@
-# SwitchTask
+# Search Book Assignment
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.4.
+A reputed company in Jordan assignment for an interview to use `Google Books API` in order to search books.
 
 ## Development server
 
